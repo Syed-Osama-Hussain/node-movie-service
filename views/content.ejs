@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+   	<head>
+     	<title><%=content.title%></title>
+   	</head>
+   	<body>
+      	<div>
+            <h4><%=content.title%></h4>
+            <video id="video" controls width="200" height="200" src="http://localhost:8000/api/content/video/<%=content.url%>?Authorization=<%=token%>"></video>
+        </div>
+   	</body>
+</html>

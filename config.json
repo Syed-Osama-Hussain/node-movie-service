@@ -1,0 +1,4 @@
+{
+    "databaseURL":"mongodb://localhost/streamingapp",
+    "jwtPrivateKey": "secretCode"
+}
